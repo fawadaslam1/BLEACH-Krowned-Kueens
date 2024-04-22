@@ -12,28 +12,28 @@ export const mapClasses = [
 ];
 export const previews = [
   {
-    img: "./assets/main-GIF_Rangiku 2.gif",
+    img: "./assets/GIF_Rangiku 2.gif",
     title: "Ra",
     tags: "Digital Generative AI, Virtual Band",
     description:
       "Your one stop shop for the world's definitive digital anime band.",
   },
   {
-    img: "./assets/main-GIF_X.gif",
+    img: "./assets/GIF_X.gif",
     title: "Uptask",
     tags: "Fashion Innovation, Graphic Simplicity",
     description:
       "Innovative fashion-forward web design with a core focus on simplicity and elegance.",
   },
   {
-    img: "./assets/main-Orihime DJ.gif",
+    img: "main-Orihime DJ.gif",
     title: "Genix",
     tags: "Eco-Fashion, Sustainable Design",
     description:
       "Sustainable fashion meets modern web aesthetics, highlighting eco-friendly apparel innovations.",
   },
   {
-    img: "./assets/main-PHASE-1-YORUICHI-DRUM-DEMONSTR-unscreen.gif",
+    img: "PHASE-1-YORUICHI-DRUM-DEMONSTR-unscreen.gif",
     title: "Unor",
     tags: "Digital Fashion, UI/UX",
     description:
