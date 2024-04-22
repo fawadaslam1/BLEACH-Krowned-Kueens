@@ -1,140 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>👑BLEACH: KROWNED KUEENS🎶</title>
-		<link rel="stylesheet" href="styles.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="left column">
-				<div class="header">
-					   👑BLEACH: KROWNED <br />&nbsp;&nbsp; KUEENS🎶
-            </h1>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cg-metalab-lp-rebuild | @Codegrid</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="menu-btn"><p>Menu</p></div>
+        <div class="logo"><a href="#">Thetalab</a></div>
+        <div class="local-time"><p>ON 11:34AM</p></div>
+      </nav>
 
-            <div class="titles">
-                <div class="title title-1"><h1>Your one stop shop for:</h1></div>
-                <div class="title title-2"><h1>the Definitive</h1></div>
-                <div class="title title-3"><h1>Digital Anime Band</h1></div>
-            </div>
-            <ul class="blocks">
-                <li class="block-1 block"></li>
-                <li class="block-2 block"></li>
-                <li class="block-3 block"></li>
-                <li class="block-4 block"></li>
-                <li class="block-5 block"></li>
-                <li class="block-6 block"></li>
-            </ul>
-        </div>
-        <script>
-            TweenMax.staggerFrom(
-                ".titles > div",
-                0.8,
-                {
-                    x: "-60",
-                    ease: Power3.easeInOut,
-                    opacity: "0",
-                },
-                2
-            );
+      <footer>
+        <p>Watch Showreel</p>
+        <p>Collection 2024</p>
+      </footer>
 
-            TweenMax.staggerTo(
-                ".titles > div",
-                0.8,
-                {
-                    x: "60",
-                    ease: Power3.easeInOut,
-                    delay: 1.2,
-                    opacity: "0",
-                },
-                2
-            );
-            TweenMax.staggerFrom(
-                "li",
-                3,
-                {
-                    x: "-1600",
-                    delay: 4.2,
-                    ease: Expo.easeInOut,
-                },
-                0.16
-            );
+      <div class="items">
+        <div class="item"><p>Ra</p></div>
+        <div class="item"><p>Uptask</p></div>
+        <div class="item"><p>Genix</p></div>
+        <div class="item"><p>Unor</p></div>
+        <div class="item"><p>Maxim Stark</p></div>
+        <div class="item"><p>Pitcher</p></div>
+        <div class="item"><p>MindSpace</p></div>
+        <div class="item"><p>The Athletix</p></div>
+        <div class="item"><p>All Work</p></div>
+      </div>
 
-            TweenMax.staggerTo(
-                "li",
-                2.6,
-                {
-                    x: "1600",
-                    delay: 6.8,
-                    ease: Expo.easeInOut,
-                },
-                0.2
-            );
-
-            var textWrapper = document.querySelector(".header");
-            textWrapper.innerHTML = textWrapper.textContent.replace(
-                /\S/g,
-                "<span class='letter'>$&</span>"
-            );
-
-            anime.timeline().add({
-                targets: ".header .letter",
-                opacity: [0, 1],
-                translateY: [80, 0],
-                translateZ: 0,
-                easing: "easeOutExpo",
-                duration: 2000,
-                delay: (el, i) => 8400 + 40 * i,
-            });
-        </script>
-
-</head>
-<body id="top">
-<section id="banner" data-video="images/banner">
-<div class="inner">
-<header>
-<style type="text/css">
-@keyframes blink{ 
-50% {
-opacity: 0
-}
-
-}
-h2{
-text-align:center;
-padding: 60px;
-font-family:sans-serif;
-color:purple;
-font-size: 50px;
-animation: blink 3s linear
-infinite;
-}
-</style>
-</head>
-<body>
-<h2>👑Welcome to the Land of the Krowned Kueens!🎶</h2>
-
-
-<header class="header">
-<h3 class="logo root">
-<a href="/"><img alt="BLEACH: KROWNED KUEENS" src="https://imgur.com/O5zZZng" /></a>
-</h3>
-<a class="btn-menu hidden-lg hidden-md">
-<span class="btn-menu-open btn-menu-icon"><i class="fas fa-align-justify"></i></span>
-<span class="btn-menu-close btn-menu-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
-</a>
-<nav class="header-menu hidden-xs hidden-sm">
-<ul class="auth-menu list-unstyled text-center">
-<li>
-<a href="/signup" class="auth-menu-btn">
-<i class="fas fa-user-plus"></i>
-<body style="background-color:khaki;">
-<div class="row"> 
-<div class="clm">
-        </body>
-    </html>
+      <div class="preview-bg">
+        <img src="./assets/default-bg.jpg" alt="" />
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
