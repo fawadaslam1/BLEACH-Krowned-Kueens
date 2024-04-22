@@ -26,21 +26,21 @@ export const previews = [
       "Innovative fashion-forward web design with a core focus on simplicity and elegance.",
   },
   {
-    img: "main-Orihime DJ.gif",
+    img: "./assets/Orihime DJ.gif",
     title: "Genix",
     tags: "Eco-Fashion, Sustainable Design",
     description:
       "Sustainable fashion meets modern web aesthetics, highlighting eco-friendly apparel innovations.",
   },
   {
-    img: "PHASE-1-YORUICHI-DRUM-DEMONSTR-unscreen.gif",
+    img: "./assets/PHASE-1-YORUICHI-DRUM-DEMONSTR-unscreen.gif",
     title: "Unor",
     tags: "Digital Fashion, UI/UX",
     description:
       "Digital-first fashion branding that merges cutting-edge UI/UX principles with style.",
   },
   {
-    img: "./assets/main-SOIFON PHASE 1 ANIMATION (2024).gif",
+    img: "./assets/SOIFON PHASE 1 ANIMATION (2024).gif",
     title: "Xav",
     tags: "Interactive Design, Fashion Tech",
     description:
@@ -54,7 +54,7 @@ export const previews = [
       "Futuristic wearables and gear presented in a sleek, graphically rich web interface.",
   },
   {
-    img: "./assets/main-ezgif-1-1e24f16b64.gif",
+    img: "./assets/ezgif-1-1e24f16b64.gif",
     title: "Pitcher",
     tags: "Innovative Textiles, Web Presentation",
     description:
