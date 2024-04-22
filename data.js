@@ -33,7 +33,7 @@ export const previews = [
       "Sustainable fashion meets modern web aesthetics, highlighting eco-friendly apparel innovations.",
   },
   {
-    img: "./assets/PHASE-1-YORUICHI-DRUM-DEMONSTR-unscreen.gif",
+    img: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnUwdGdxaDU3OHV4bGxkOHNsdjEzYm9iN3h3bnJvM2U1YjhmN2VnOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vBGSvV0hLHxpjAWIqv/giphy.gif",
     title: "Unor",
     tags: "Digital Fashion, UI/UX",
     description:
