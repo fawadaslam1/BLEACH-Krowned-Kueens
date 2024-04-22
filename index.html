@@ -12,85 +12,88 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1 class="header">
-				👑BLEACH: KROWNED <br />&nbsp;&nbsp; KUEENS🎶
-			</h1>
-
-			<div class="titles">
-				<div class="title title-1"><h1>Your one stop shop for:</h1></div>
-				<div class="title title-2"><h1>the Definitive</h1></div>
-				<div class="title title-3"><h1>Digital Anime Band</h1></div>
+			<div class="left column">
+				<div class="header">
+					<p>boundary supply /</p>
+					<p>
+						better than brand new second hand clothing / focus by sick apparel
+						everyday,
+					</p>
+					<p>home of (23-29)</p>
+				</div>
+				<div class="link"><a href="#">all products</a></div>
 			</div>
-			<ul class="blocks">
-				<li class="block-1 block"></li>
-				<li class="block-2 block"></li>
-				<li class="block-3 block"></li>
-				<li class="block-4 block"></li>
-				<li class="block-5 block"></li>
-				<li class="block-6 block"></li>
-			</ul>
+			<div class="right column">
+				<div class="images">
+					<div class="img-1 img"></div>
+					<div class="img-2 img"></div>
+					<div class="img-3 img"></div>
+					<div class="img-4 img"></div>
+				</div>
+				<div class="header">
+					<h1 class="ml12">gorgeoushe</h1>
+				</div>
+			</div>
 		</div>
 		<script>
-			TweenMax.staggerFrom(
-				".titles > div",
-				0.8,
-				{
-					x: "-60",
-					ease: Power3.easeInOut,
-					opacity: "0",
-				},
-				2
-			);
-
-			TweenMax.staggerTo(
-				".titles > div",
-				0.8,
-				{
-					x: "60",
-					ease: Power3.easeInOut,
-					delay: 1.2,
-					opacity: "0",
-				},
-				2
-			);
-			TweenMax.staggerFrom(
-				"li",
-				3,
-				{
-					x: "-1600",
-					delay: 4.2,
-					ease: Expo.easeInOut,
-				},
-				0.16
-			);
-
-			TweenMax.staggerTo(
-				"li",
-				2.6,
-				{
-					x: "1600",
-					delay: 6.8,
-					ease: Expo.easeInOut,
-				},
-				0.2
-			);
-
-			var textWrapper = document.querySelector(".header");
+			// Wrap every letter in a span
+			var textWrapper = document.querySelector(".ml12");
 			textWrapper.innerHTML = textWrapper.textContent.replace(
 				/\S/g,
 				"<span class='letter'>$&</span>"
 			);
 
 			anime.timeline().add({
-				targets: ".header .letter",
-				opacity: [0, 1],
-				translateY: [80, 0],
+				targets: ".ml12 .letter",
+				translateY: [100, 0],
 				translateZ: 0,
+				opacity: [0, 1],
 				easing: "easeOutExpo",
 				duration: 2000,
-				delay: (el, i) => 8400 + 40 * i,
+				delay: (el, i) => 2000 + 60 * i,
+			});
+
+			TweenMax.from(".left", 3, {
+				left: "-50%",
+				ease: Expo.easeInOut,
+				delay: 3.4,
+			});
+			TweenMax.from(".header h1", 3, {
+				left: "-140%",
+				ease: Expo.easeInOut,
+				delay: 3.4,
+			});
+			TweenMax.staggerFrom(
+				".images > div",
+				1,
+				{
+					y: "60",
+					opacity: 0,
+					ease: Power2.easeOut,
+					delay: 6,
+				},
+				0.2
+			);
+
+			TweenMax.staggerFrom(
+				".header > p",
+				1,
+				{
+					y: "60",
+					opacity: 0,
+					ease: Power2.easeOut,
+					delay: 5.6,
+				},
+				0.2
+			);
+
+			TweenMax.from(".link", 1, {
+				opacity: 0,
+				ease: SteppedEase.config(1),
+				repeat: -1,
+				repeatDelay: 0.2,
+				delay: 7.8,
 			});
 		</script>
-		
-		</body>
-	</html>
+	</body>
+</html>
