@@ -12,63 +12,63 @@ export const mapClasses = [
 ];
 export const previews = [
   {
-    img: "./assets/main-1.jpg",
+    img: "./assets/main-GIF_Rangiku 2.gif",
     title: "Ra",
-    tags: "Futuristic Fashion, Minimal Design",
+    tags: "Digital Generative AI, Virtual Band",
     description:
-      "Exploring the intersection of minimalism and future fashion trends in web design.",
+      "Your one stop shop for the world's definitive digital anime band.",
   },
   {
-    img: "./assets/main-2.jpg",
+    img: "./assets/main-GIF_X.gif",
     title: "Uptask",
     tags: "Fashion Innovation, Graphic Simplicity",
     description:
       "Innovative fashion-forward web design with a core focus on simplicity and elegance.",
   },
   {
-    img: "./assets/main-3.jpg",
+    img: "./assets/main-Orihime DJ.gif",
     title: "Genix",
     tags: "Eco-Fashion, Sustainable Design",
     description:
       "Sustainable fashion meets modern web aesthetics, highlighting eco-friendly apparel innovations.",
   },
   {
-    img: "./assets/main-4.jpg",
+    img: "./assets/main-PHASE-1-YORUICHI-DRUM-DEMONSTR-unscreen.gif",
     title: "Unor",
     tags: "Digital Fashion, UI/UX",
     description:
       "Digital-first fashion branding that merges cutting-edge UI/UX principles with style.",
   },
   {
-    img: "./assets/main-5.jpg",
+    img: "./assets/main-SOIFON PHASE 1 ANIMATION (2024).gif",
     title: "Xav",
     tags: "Interactive Design, Fashion Tech",
     description:
       "Tech-infused fashion experiences showcased through interactive web design elements.",
   },
   {
-    img: "./assets/main-6.jpg",
+    img: "./assets/ezgif-2-b1ebce3a21.gif",
     title: "Maxim Stark",
     tags: "Futuristic Wearables, Web Graphics",
     description:
       "Futuristic wearables and gear presented in a sleek, graphically rich web interface.",
   },
   {
-    img: "./assets/main-7.jpg",
+    img: "./assets/main-ezgif-1-1e24f16b64.gif",
     title: "Pitcher",
     tags: "Innovative Textiles, Web Presentation",
     description:
       "Web presentation of innovative textiles that redefine the boundaries of modern fashion.",
   },
   {
-    img: "./assets/main-8.jpg",
+    img: "./assets/main-ezgif-4-4f6831dfff.gif",
     title: "MindSpace",
     tags: "Augmented Reality, Fashion Design",
     description:
       "Augmented reality in fashion design, creating immersive web experiences for users.",
   },
   {
-    img: "./assets/main-9.jpg",
+    img: "https://i.imgur.com/3puvQnv.jpeg",
     title: "The Athletix",
     tags: "Virtual Fashion, Graphic Design",
     description:
