@@ -12,21 +12,21 @@ export const mapClasses = [
 ];
 export const previews = [
   {
-    img: "./assets/GIF_Rangiku 2.gif",
+    img: "./assets/GIF_X.gif",
     title: "Ra",
     tags: "Digital Generative AI, Virtual Band",
     description:
       "Your one stop shop for the world's definitive digital anime band.",
   },
   {
-    img: "./assets/GIF_X.gif",
+    img: "./assets/GIF_Rangiku 2.gif",
     title: "Uptask",
     tags: "Fashion Innovation, Graphic Simplicity",
     description:
       "Innovative fashion-forward web design with a core focus on simplicity and elegance.",
   },
   {
-    img: "./assets/Orihime DJ.gif",
+    img: "./assets/ORIHIME DJ.gif",
     title: "Genix",
     tags: "Eco-Fashion, Sustainable Design",
     description:
@@ -61,7 +61,7 @@ export const previews = [
       "Web presentation of innovative textiles that redefine the boundaries of modern fashion.",
   },
   {
-    img: "./assets/main-ezgif-4-4f6831dfff.gif",
+    img: "./assets/ezgif-4-4f6831dfff.gif",
     title: "MindSpace",
     tags: "Augmented Reality, Fashion Design",
     description:
@@ -75,7 +75,7 @@ export const previews = [
       "Virtual fashion collections displayed through stunning graphic design and web aesthetics.",
   },
   {
-    img: "./assets/main-10.jpg",
+    img: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHFlNXc0M2VybW9jN2d2d290YXUzMnMzeXp6d2dzaDU2cGpkOWt5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SaxRfitPapDgplsYlE/giphy.gif",
     title: "All Work",
     tags: "Minimalist Aesthetics, Fashion Forward",
     description:
