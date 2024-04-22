@@ -11,6 +11,86 @@
 			   
 		  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
 		  <meta charset="utf-8">
+
+		<div class="container">
+			<h1 class="header">
+				KROWNED <br />&nbsp;&nbsp; KUEENS
+			</h1>
+
+			<div class="titles">
+				<div class="title title-1"><h1>Your one stop shop for</h1></div>
+				<div class="title title-2"><h1>The Ultimate</h1></div>
+				<div class="title title-3"><h1>Digital Anime Bands</h1></div>
+			</div>
+			<ul class="blocks">
+				<li class="block-1 block"></li>
+				<li class="block-2 block"></li>
+				<li class="block-3 block"></li>
+				<li class="block-4 block"></li>
+				<li class="block-5 block"></li>
+				<li class="block-6 block"></li>
+			</ul>
+		</div>
+		<script>
+			TweenMax.staggerFrom(
+				".titles > div",
+				0.8,
+				{
+					x: "-60",
+					ease: Power3.easeInOut,
+					opacity: "0",
+				},
+				2
+			);
+
+			TweenMax.staggerTo(
+				".titles > div",
+				0.8,
+				{
+					x: "60",
+					ease: Power3.easeInOut,
+					delay: 1.2,
+					opacity: "0",
+				},
+				2
+			);
+			TweenMax.staggerFrom(
+				"li",
+				3,
+				{
+					x: "-1600",
+					delay: 4.2,
+					ease: Expo.easeInOut,
+				},
+				0.16
+			);
+
+			TweenMax.staggerTo(
+				"li",
+				2.6,
+				{
+					x: "1600",
+					delay: 6.8,
+					ease: Expo.easeInOut,
+				},
+				0.2
+			);
+
+			var textWrapper = document.querySelector(".header");
+			textWrapper.innerHTML = textWrapper.textContent.replace(
+				/\S/g,
+				"<span class='letter'>$&</span>"
+			);
+
+			anime.timeline().add({
+				targets: ".header .letter",
+				opacity: [0, 1],
+				translateY: [80, 0],
+				translateZ: 0,
+				easing: "easeOutExpo",
+				duration: 2000,
+				delay: (el, i) => 8400 + 40 * i,
+			});
 	 </head>
 	 <body id="top">
 			<section id="banner" data-video="images/banner">
@@ -39,9 +119,9 @@
 
 
 								<header class="header">
-	<h1 class="logo root">
+	<h3 class="logo root">
 		<a href="/"><img alt="BLEACH: KROWNED KUEENS" src="https://imgur.com/O5zZZng" /></a>
-	</h1>
+	</h3>
 	<a class="btn-menu hidden-lg hidden-md">
 		<span class="btn-menu-open btn-menu-icon"><i class="fas fa-align-justify"></i></span>
 		<span class="btn-menu-close btn-menu-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
