@@ -37,5 +37,41 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script type="module" src="./main.js"></script>
+
+
+    #loader { 
+          position: fixed;  
+          width: 100%; 
+          height: 100vh; 
+          z-index: 1;
+          overflow: visible;
+          background: #000 url('https://i.imgur.com/gZXBjE2.jpeg') no-repeat center center;
+    }
+
+    <script type="text/javascript"> 
+      
+      var loader; 
+      function loadNow(opacity) { if(opacity <=0) {
+             displayContent();
+      }
+      else {
+        loader.style.opacity = opacity;
+        window.setTimeout(function() {
+          loadNow(opacity - 0.05)
+          }, 100);
+      }
+
+  }
+      function displayContent() {
+        loader.style.display = 'none'; 
+        document.getElementById('content').style.display = 'block';
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+        loader = document.getElementById('loader');
+        loadNow(1);
+        });
+      
+      </script>
   </body>
 </html>
