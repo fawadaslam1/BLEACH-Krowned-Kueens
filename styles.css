@@ -232,3 +232,21 @@ footer {
   left: 20%;
   top: 15%;
 }
+
+    #pre-loader{ 
+          position: fixed;  
+          width: 100%; 
+          height: 100vh; 
+          z-index: 1;
+          overflow: visible;
+          background: #000 url('https://i.imgur.com/gZXBjE2.jpeg') no-repeat center center;
+    }
+    
+  h1{ 
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: Poppins;
+  }
