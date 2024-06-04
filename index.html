@@ -11,6 +11,7 @@
     <div class="container">
       <nav>
         <div class="logo"><p>Krowned Kueens</p></div>
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzgyMXNhYmNxbDFhMmJrejFlc2V5NWV6aGtrNjdlOGNieGF1MWI2ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WBY7MnfiJ18yCil0Ld/giphy.gif" alt="" />
         <div class="menu"><p>about</p></div>
       </nav>
       <h1>BLEACH: KROWNED KUEENS</h1>
@@ -48,12 +49,12 @@
       <div class="col">
         <h2><div>Welcome to the world's greatest virtual band!</div></h2>
          <div class="preview-bg">
-        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDlud3hsYmRkY2N4eWhmZzcwcTV4cWI3anZ2a3hpNndvN3I2ODF1dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5eY3gwLkK7ZvOgyZGJ/source.gif" alt="" />
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdyZG04cHE5azBsaXBmeWszd2pwODhpeGxoeWR6M2Vud2pzN2NseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZZPaJaCNjkUYH90QbJ/giphy.gif" height="250" width="400"> </img>
       </div>
       <div class="col">
-        <h2>
+        <h3>
           <div><span>click</span> anywhere to continue</div>
-        </h2>
+        </h3>
       </div>
     </div>
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
@@ -81,7 +82,7 @@
       document.addEventListener("DOMContentLoaded", function () {
         let overlay = document.querySelector(".overlay");
         overlay.addEventListener("click", function () {
-          gsap.to("h2 div", 1.5, {
+          gsap.to("h2 div", 3, {
             yPercent: -100,
             ease: "power4.inOut",
             stagger: {
@@ -101,12 +102,12 @@
             0
           );
 
-          gsap.to(".overlay", 2, {
+          gsap.to(".overlay", 3, {
             clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
             ease: "power4.inOut",
           });
 
-          gsap.to(".img", 2, {
+          gsap.to(".img", 3, {
             clipPath: "polygon(0 100%, 100% 100%, 100% 0%, 0 0%)",
             ease: "power4.inOut",
             stagger: {
@@ -114,10 +115,10 @@
             },
           });
 
-          gsap.to(".loader", 4, {
+          gsap.to(".loader", 2, {
             clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
             ease: "power4.inOut",
-            delay: 4,
+            delay: 2,
           });
         });
       });
