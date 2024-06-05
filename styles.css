@@ -43,9 +43,9 @@ nav ul li a{
   text-align: center;
 }
 .content h1{
-  font-size: 90px;
+  font-size: 70px;
   color: #fff;
-  font-weight: 200;
+  font-weight: 100;
   transtion: 0.5s;
 }
 .content h1: hover{
@@ -92,7 +92,7 @@ h2 {
   margin: 0;
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 100;
   text-transform: uppercase;
   line-height: 1;
 }
