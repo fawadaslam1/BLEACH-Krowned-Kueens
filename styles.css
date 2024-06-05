@@ -113,20 +113,24 @@ h2 {
 
 }
 
-@media (min-aspect-ratio:16/9) { 
-  .background-clip{ 
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+  
+@media (max-aspect-ratio:16/9){ 
+  .back-video{ 
     width: 100%; 
     height: auto; 
-  
   } 
 
 }   
-
-@media (max-aspect-ratio:16/9) {   
-  .background-clip{ 
+@media (max-aspect-ratio:16/9){   
+  .back-video{ 
     width: auto; 
     height: 100%;
-
   }
 
 }
