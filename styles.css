@@ -91,3 +91,11 @@ h2 {
 .col:nth-child(2) h2 span {
   color: #fff;
 }
+
+.background-clip{ 
+  position: absolute; 
+  right: 0; 
+  bottom: 0; 
+  z-index: -1; 
+}
+
