@@ -38,24 +38,15 @@ nav ul li a{
   color: #fff;
   font-size: 17px;
 }
-  
 
-nav p {
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.container h1 {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  font-weight: 500;
-  text-transform: uppercase;
+.content{
   text-align: center;
+}
+.content h1{
+  font-size: 160px;
+  color: #fff;
+  font-weight: 600;
+
 }
 
 .loader {
