@@ -14,16 +14,16 @@ export const previews = [
   {
     img: "./assets/GIF_X.gif",
     title: "WHAT IS KROWNED KUEENS?",
-    tags: "Rhythym Software (e.g., Guitar Hero | Rock Band | Audio Surf | Project DIVA), Virtual Band (e.g., Hatsune Miku | Gorillaz | Dethklok | K/DA)",
+    tags: "Krowned Kueens (KK) is a prospective music production software that hinges on the use of generative Artificial Intelligence--and eventually--embodied intelligent agents, where AI meets the physical world. The AI in question will be used to produce sounds from existing audio as well as new, original audio. The primary line-up features a nine-member all-female band who were originally designed by Noriaki Kubo and are owned by VIZ Media.",
     description:
-      "Krowned Kueens (KK) is a prospective music production software that hinges on the use of generative Artificial Intelligence--and eventually--embodied intelligent agents, where AI meets the physical world. The AI in question will be used to produce sounds from existing audio as well as new, original audio. The primary line-up features a nine-member all-female band who were originally designed by Noriaki Kubo and are owned by VIZ Media.",
+      "Rhythym Software (e.g., Guitar Hero | Rock Band | Audio Surf | Project DIVA), Virtual Band (e.g., Hatsune Miku | Gorillaz | Dethklok | K/DA)",
   },
   {
-    img: "./assets/ORIHIME DJ.gif",
-    title: "MUSICAL INNOVATION",
-    tags: "Songwriting | Beat-making | Dance choreography, Editing | Recording | Mixing",
+    img: "https://i.imgur.com/QkNtZ8Z.png",
+    title: "May 17th",
+    tags: "A passion and a dream",
     description:
-      "The software is expected to serve as a one-stop shop for all things audio and music production, and can also be toggled and used for gaming in solo or group formats in offline or online settings. The KK software is ultimately designed to appeal to users of all ages, backgrounds, and abilities to be creative and have fun while channeling their inner musician.",
+      "This date and those words are what initially triggered the existence of KK",
   },
   {
     img: "./assets/GIF_Rangiku 2.gif",
@@ -40,32 +40,32 @@ export const previews = [
       "Digital-first fashion branding that merges cutting-edge UI/UX principles with style.",
   },
   {
-    img: "./assets/SOIFON PHASE 1 ANIMATION (2024).gif",
-    title: "Xav",
-    tags: "Interactive Design, Fashion Tech",
+    img: "https://i.imgur.com/P6V3UOi.jpeg",
+    title: "Pre-Phase (Original Lineup)",
+    tags: "Year - 2002",
     description:
-      "Tech-infused fashion experiences showcased through interactive web design elements.",
+      "Formed after Aizen's Fake Karakura Town defeat",
   },
   {
-    img: "./assets/ezgif-2-b1ebce3a21.gif",
-    title: "Maxim Stark",
-    tags: "Futuristic Wearables, Web Graphics",
+    img: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3dnbm51a3JyMDQ4cmU0aTJqY3d2bW94eDhheGdxcXBhYXk3NzVpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0htBTEe1VdzyC9eOQU/giphy.gif",
+    title: "Phase 1 (Current Lineup)",
+    tags: "Years - 2003-2004",
     description:
-      "Futuristic wearables and gear presented in a sleek, graphically rich web interface.",
+      "Formed after 1st Album release (Kukaku departed for family reasons)",
   },
   {
-    img: "./assets/ezgif-1-1e24f16b64.gif",
-    title: "Pitcher",
-    tags: "Innovative Textiles, Web Presentation",
+    img: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXF5eW1qdmJwNHJnaDFvbzdpY3RibWRxNzdhN21iYWppN282cDl4MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cYYmS5bmpIDRPBmvOE/giphy.gif",
+    title: "Phase 2",
+    tags: "Years - 2004-2005",
     description:
-      "Web presentation of innovative textiles that redefine the boundaries of modern fashion.",
+      "Edgiest era of the band.",
   },
   {
-    img: "./assets/ezgif-4-4f6831dfff.gif",
-    title: "MindSpace",
-    tags: "Augmented Reality, Fashion Design",
+    img: "https://i.imgur.com/Zx9hcdK.jpeg",
+    title: "Phase 3",
+    tags: "Years - 2008-2009",
     description:
-      "Augmented reality in fashion design, creating immersive web experiences for users.",
+      "Final era; the most mature and powerful version of the band.",
   },
   {
     img: "https://i.imgur.com/3puvQnv.jpeg",
