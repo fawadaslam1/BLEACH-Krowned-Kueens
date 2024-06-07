@@ -13,20 +13,20 @@ export const mapClasses = [
 export const previews = [
   {
     img: "./assets/GIF_X.gif",
-    title: "Ra",
-    tags: "Digital Generative AI, Virtual Band",
+    title: "WHAT IS KROWNED KUEENS?",
+    tags: "Rhythym Software (e.g., Guitar Hero | Rock Band | Audio Surf | Project DIVA), Virtual Band (e.g., Hatsune Miku | Gorillaz | Dethklok | K/DA)",
     description:
-      "Your one stop shop for the world's definitive digital anime band.",
-  },
-  {
-    img: "./assets/GIF_Rangiku 2.gif",
-    title: "Uptask",
-    tags: "Fashion Innovation, Graphic Simplicity",
-    description:
-      "Innovative fashion-forward web design with a core focus on simplicity and elegance.",
+      "Krowned Kueens (KK) is a prospective music production software that hinges on the use of generative Artificial Intelligence--and eventually--embodied intelligent agents, where AI meets the physical world. The AI in question will be used to produce sounds from existing audio as well as new, original audio. The primary line-up features a nine-member all-female band who were originally designed by Noriaki Kubo and are owned by VIZ Media.",
   },
   {
     img: "./assets/ORIHIME DJ.gif",
+    title: "MUSICAL INNOVATION",
+    tags: "Songwriting | Beat-making | Dance choreography, Editing | Recording | Mixing",
+    description:
+      "The software is expected to serve as a one-stop shop for all things audio and music production, and can also be toggled and used for gaming in solo or group formats in offline or online settings. The KK software is ultimately designed to appeal to users of all ages, backgrounds, and abilities to be creative and have fun while channeling their inner musician.",
+  },
+  {
+    img: "./assets/GIF_Rangiku 2.gif",
     title: "Genix",
     tags: "Eco-Fashion, Sustainable Design",
     description:
