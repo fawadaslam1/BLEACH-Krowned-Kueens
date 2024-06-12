@@ -5,8 +5,8 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   --hue-color: 206;
-  --orange-color: hsl(var(--hue-color), 4%, 4%);
-  --orange-color-alt: hsl(var(--hue-color), 4%, 8%);
+  --black-color: hsl(var(--hue-color), 4%, 4%);
+  --black-color-alt: hsl(var(--hue-color), 4%, 8%);
   --title-color: hsl(var(--hue-color), 4%, 95%);
   --text-color: hsl(var(--hue-color), 4%, 75%);
   --text-color-light: hsl(var(--hue-color), 4%, 65%);
@@ -281,7 +281,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--orange-color);
+  background-color: var(--black-color);
   color: var(--white-color);
   padding: 1rem 1.25rem;
   border-radius: .5rem;
@@ -289,7 +289,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--orange-color-alt);
+  background-color: var(--black-color-alt);
 }
 
 .button__icon {
@@ -513,7 +513,7 @@ img {
 }
 
 .footer__social-link:hover {
-  background-color: var(--orange-color);
+  background-color: var(--black-color);
 }
 
 .footer__copy {
@@ -541,7 +541,7 @@ img {
 }
 
 .scrollup:hover {
-  background-color: var(--orange-color);
+  background-color: var(--black-color);
   opacity: 1;
 }
 
