@@ -1,31 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>👑BLEACH: KROWNED KUEENS🎶</title>
-    <link rel="stylesheet" href="styles.css" />
+      
+            <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="styles4.css">
+    </head>
+    <body>
   </head>
   <body>
-    <div class="hero">
-      <nav>
-        <body text="white" bgcolor="black">
-        <img src="images/logo.gif" class="logo">
-        <ul>
-          <li><a href="https://bleachkrownedkueens.com/">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="characters.html">CHARACTERS</a></li>
-          <li><a href="media.html">MEDIA GALLERY</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="donations.html">DONATIONS</a></li>
-          <li><a href="#">MERCH & APPAREL</a></li>
-        </ul>
-      </nav>
-      <div class="content">
-        <h1>BLEACH: Krowned Kueens</h1>
-      </div>
-    </div>
+    
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="images/logo.gif" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="https://bleachkrownedkueens.com/" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="media.html" class="nav__link">Media Gallery</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link">Contact</a>
+                        </li>
+                         <li class="nav__item">
+                            <a href="donations.html" class="nav__link">Donations</a>
+                         </li>
+                         <li class="nav__item">
+                            <a href="#" class="nav__link">Merch & Apparel</a>
+                             
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
     
     <div class="loader">
       <div class="img">
@@ -58,8 +87,6 @@
     </div>
     
     <div class="overlay">
-      <body text="white" bgcolor="black">
-      <div class="col">
         <h2 align="center"><div>Welcome to the world's greatest virtual band!</div></h2>
          <div class="preview-bg">
         <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnIyY3MyYWRneG5mamhiZXduZnJ5NzNuaGtvOTFrazdlc2pucnM2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5qliCE6DrSBmbgCAdX/giphy.gif"> 
@@ -136,6 +163,91 @@
         });
       });
 
+      <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Products</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Earphones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Earbuds</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Accesories</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Product help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Register</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Updates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Provides</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                        </button>
+                    </form>
+    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="#" target="_blank" class="footer__copy-link">&#169; BLEACH: KROWNED KUEENS. All right reserved</a>
+            </p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="secondary.js"></script>
+    
+    </body>
+</html>
       </script>
   </body>
 </html>
