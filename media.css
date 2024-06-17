@@ -20,7 +20,7 @@ h1{
 }
 h1::before{
   content: '';
-  position: center;
+  position: absolute;
   width: 100px;
   height: 3px;
   background-color: crimson;
@@ -169,7 +169,7 @@ label:hover{
   }
 
 #check4:checked ~ .container .photo-gallery .family,
-  #check4:checked ~ .container .photo-gallery .child{
+  #check4:checked ~ .container .photo-gallery .place{
     opacity: 0;
     transform: scale(0);
     position: absolute;
