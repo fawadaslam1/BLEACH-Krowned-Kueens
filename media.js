@@ -1,15 +1,15 @@
 /*=============== SWIPER JS GALLERY ===============*/
 let swiperCards = new Swiper(".gallery-cards", {
   loop: true,
-  loopedSlides: 5,
+  loopedSlides: 10,
   cssMode: true,
   effect: 'fade',
 });
   
 let swiperThumbs = new Swiper(".gallery-thumbs", {
   loop: true,
-  loopedSlides: 5,
-  slidesPerView: 3,
+  loopedSlides: 10,
+  slidesPerView: 4,
   centeredSlides: true,
   slideToClickedSlide: true,
 
