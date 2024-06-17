@@ -411,7 +411,7 @@ img {
 
 .products__card {
   position: relative;
-  height: 132px;
+  height: 200px;
   background-color: var(--container-color);
   padding: .75rem;
   border-radius: .5rem;
@@ -419,7 +419,7 @@ img {
 }
 
 .products__img {
-  width: 80px;
+  width: 100px;
   position: absolute;
   inset: 0;
   margin-right: auto;
