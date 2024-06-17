@@ -14,13 +14,13 @@ input{
 }
 h1{ 
   font-weight: normal;
-  font-size: 35px;
+  font-size: 40px;
   position: relative;
-  margin: 40px 0;
+  margin: 45px 0;
 }
 h1::before{
   content: '';
-  position: absolute;
+  position: center;
   width: 100px;
   height: 3px;
   background-color: crimson;
