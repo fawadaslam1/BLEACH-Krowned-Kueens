@@ -12,25 +12,6 @@ input{
   width: 100%;
   text-align: center;
 }
-
-.nav {
-  height: var(--header-height);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav__logo {
-  display: flex;
-  width: 1.5rem;
-}
-
-.nav__toggle {
-  font-size: 1.2rem;
-  color: var(--white-color);
-  cursor: pointer;
-}
-
 h1{ 
   font-weight: normal;
   font-size: 35px;
