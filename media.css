@@ -8,6 +8,8 @@
   --text-color: #fff;
   --text-color-black: hsl(30, 8%, 15%);
   --body-color: hsl(30, 100%, 98%);
+      <img src="https://wallpapers.com/images/hd/orange-gradient-background-2cbono7lshl9y2v0.jpg" class="bg__image">
+      <div class="bg__blur"></div>
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -109,8 +111,8 @@ img {
 
 .gallery__thumbnail {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 1.5rem;
   overflow: hidden;
   cursor: pointer;
