@@ -1,259 +1,661 @@
-<!DOCTYPE html>
-    <html lang="en">
+<!doctype html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
-    <title>👑BLEACH: KROWNED KUEENS🎶</title>
-      
-            <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="styles4.css">
+        <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
+        <title>👑BLEACH: KROWNED KUEENS🎶</title>
+
+        <!-- CSS FILES -->                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+            
+        <link href="bootstrap.min.css" rel="stylesheet">
+
+        <link href="bootstrap-icons.css" rel="stylesheet">
+
+        <link href="vegas.min.css" rel="stylesheet">
+
+        <link href="tooplate-barista.css" rel="stylesheet">
+        
+<!--
+
+Tooplate 2137 Barista Cafe
+
+https://www.tooplate.com/view/2137-barista-cafe
+
+Bootstrap 5 HTML CSS Template
+
+-->
     </head>
+    
     <body>
-  </head>
-  <body>
-    
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="https://bleachkrownedkueens.com/" class="nav__logo">
-                    <img src="images/logo.gif" alt="">
-                </a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="https://bleachkrownedkueens.com/" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="about.html" class="nav__link">About</a>
-                        </li>
-                          <li class="nav__item">
-                            <a href="characters.html" class="nav__link">Characters</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="media.html" class="nav__link">Media Gallery</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="contact.html" class="nav__link">Contact</a>
-                        </li>
-                         <li class="nav__item">
-                            <a href="donations.html" class="nav__link">Donations</a>
-                         </li>
-                         <li class="nav__item">
-                            <a href="#" class="nav__link">Merch & Apparel</a>
-                             
-                        </li>
-                    </ul>
-
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-            </nav>
-        </header>
-    
-    <div class="loader">
-      <div class="img">
-        <img src="./images/orihime.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/yoruichi.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/mila.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/zabimaru.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/apacci.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/jackie.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/rangiku.gif" alt="" />
-      </div>
-      <div class="img">
-        <img src="./images/soifon.gif" alt="" />
-      </div>
-      <div class="img reveal">
-        <img src="./images/harribel.gif" alt="" />
-      </div>
-    </div>
-    
-    <div class="overlay">
-        <h2 align="center"><div>Welcome to the world's greatest virtual band and the ULTIMATE Digital Audio Workstation!</div></h2>
-         <div class="preview-bg">
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnIyY3MyYWRneG5mamhiZXduZnJ5NzNuaGtvOTFrazdlc2pucnM2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5qliCE6DrSBmbgCAdX/giphy.gif"> 
-      </div>
-      <div class="col">
-        <h3>
-          <div><span>click</span> anywhere to continue</div>
-        </h3>
-      </div>
-    </div>
-    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
-    <script>
-      gsap.from("h2 div", 1.5, {
-        yPercent: 100,
-        ease: "power4.inOut",
-        stagger: {
-          amount: 0.5,
-        },
-      });
-      gsap.to(
-        "h2",
-        1.5,
-        {
-          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-          ease: "power4.inOut",
-          stagger: {
-            amount: 0.5,
-          },
-        },
-        0
-      );
-
-      document.addEventListener("DOMContentLoaded", function () {
-        let overlay = document.querySelector(".overlay");
-        overlay.addEventListener("click", function () {
-          gsap.to("h2 div", 1.5, {
-            yPercent: -100,
-            ease: "power4.inOut",
-            stagger: {
-              amount: 0.5,
-            },
-          });
-          gsap.to(
-            "h2",
-            1.5,
-            {
-              clipPath: "polygon(0 100%, 100% 100%, 100% 100%, 0% 100%)",
-              ease: "power4.inOut",
-              stagger: {
-                amount: 0.5,
-              },
-            },
-            0
-          );
-
-          gsap.to(".overlay", 2, {
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-            ease: "power4.inOut",
-          });
-
-          gsap.to(".img", 2, {
-            clipPath: "polygon(0 100%, 100% 100%, 100% 0%, 0 0%)",
-            ease: "power4.inOut",
-            stagger: {
-              amount: 1.5,
-            },
-          });
-
-          gsap.to(".loader", 2, {
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
-            ease: "power4.inOut",
-            delay: 2,
-          });
-        });
-      });
-
-      <!--=============== FOOTER ===============-->
-   <footer class="footer section">
-            <div class="footer__container container grid">
-                <a href="#" class="footer__logo">
-                    <img src="assets/img/logo.png" alt="">
-                </a>
-    
-                <div class="footer__content">
-                    <h3 class="footer__title">Things to Know</h3>
-    
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">...</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">...</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">...</a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="footer__content">
-                    <h3 class="footer__title">Additional Info</h3>
-    
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">News</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Register</a>
-                        </li>
-                         <li>
-                            <a href="#" class="footer__link">Products</a>
-                        </li>
-                           <li>
-                            <a href="#" class="footer__link">Non-KK Content (User Created Submissions)</a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="footer__content">
-                    <form action="" class="footer__form">
-                        <input type="email" placeholder="Email" class="footer__input">
-                        <button class="button button--flex">
-                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                
+            <main>
+                <nav class="navbar navbar-expand-lg">                
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="images/logo.gif" class="navbar-brand-image img-fluid" alt="Krowned Kueens Template">
+                            BLEACH: KROWNED KUEENS
+                        </a>
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                    </form>
-    
-                    <div class="footer__social">
-                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-facebook-fill"></i>
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-twitter-line"></i>
-                        </a>
+        
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-lg-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="https://bleachkrownedkueens.com/">Home</a>
+                                </li>
+        
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="News.html">News</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="about.html">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="FAQ.html">FAQ</a>
+                                </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="media.html">Media Gallery</a>
+                            </li>
+                        </ul>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="donations.html">Donate/Invest</a>
+                        </li>
+                    </ul>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="donations.html">Merch & Apparel</a>
+                    </li>
+                </ul>
+
+                            <div class="ms-lg-3">
+                                <a class="btn custom-btn custom-border-btn" href="contact.html">
+                                    Got an inquiry?
+                                    <i class="bi-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12 mx-auto">
+                                <em class="small-text">Welcome to the one and only:</em>
+                                
+                                <h1>KROWNED KUEENS</h1>
+
+                                <p class="text-white mb-4 pb-lg-2">
+                                    Your <em>favourite</em> Digital Audio WorkStation!
+                                </p>
+
+                                <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
+                                    Background Info
+                                </a>
+
+                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Latest Content</strong></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="hero-slides"></div>
+                </section>
+
+
+                <section class="about-section section-padding" id="section_2">
+                    <div class="section-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="ratio ratio-1x1">
+                                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                                        <source src="videos/FINAL ANIMATION COMPLETED (1).mp4" type="video/mp4">
+
+                                        Your browser does not support the video tag.
+                                    </video>
+
+                                    <div class="about-video-info d-flex flex-column">
+                                        <h4 class="mt-auto">Anime Girls Turned Music Personalities</h4>
+
+                                        <h4>They will soon be part of the greatest DAW the 
+                                            world has ever experienced</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                                <em class="text-white">...</em>
+
+                                <h2 class="text-white mb-3">...</h2>
+
+                                <p class="text-white">...</p>
+
+                                <p class="text-white">...</p>
+
+                                <a href="#" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet the Cast</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="barista-section section-padding section-bg" id="barista-team">
+                    <div class="container">
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                                <em class="text-white">Creativity Awaits</em>
+
+                                <h2 class="text-white">Meet the Main Line Up!</h2>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Orihime "DJ Hime-Chan" Inoue</h4>
+
+                                            <p class="badge ms-4"><em>Turntablist (#0)</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">...</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="https://bleachkrownedkueens.com/images/orihime.gif" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Yoruichi Shihouin</h4>
+
+                                            <p class="badge ms-4"><em>Drummer (#1)</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">...</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="ihttps://bleachkrownedkueens.com/images/yoruichi.gif" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Mila Rose</h4>
+
+                                            <p class="badge ms-4"><em>Bassist (#2)</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">...</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="https://bleachkrownedkueens.com/images/mila.gif" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="team-block-wrap">
+                                    <div class="team-block-info d-flex flex-column">
+                                        <div class="d-flex mt-auto mb-3">
+                                            <h4 class="text-white mb-0">Zabimaru</h4>
+
+                                            <p class="badge ms-4"><em>Vocals/Percussion/Dance (#3)</em></p>
+                                        </div>
+
+                                        <p class="text-white mb-0">...</p>
+                                    </div>
+
+                                    <div class="team-block-image-wrap">
+                                        <img src="https://bleachkrownedkueens.com/images/zabimaru.gif" class="team-block-image img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-block-wrap">
+                            <div class="team-block-info d-flex flex-column">
+                                <div class="d-flex mt-auto mb-3">
+                                    <h4 class="text-white mb-0">Emilou Apacci</h4>
+
+                                    <p class="badge ms-4"><em>Lead Guitar (#4)</em></p>
+                                </div>
+
+                                <p class="text-white mb-0">...</p>
+                            </div>
+
+                            <div class="team-block-image-wrap">
+                                <img src="https://bleachkrownedkueens.com/images/apacci.gif" class="team-block-image img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-block-wrap">
+                    <div class="team-block-info d-flex flex-column">
+                        <div class="d-flex mt-auto mb-3">
+                            <h4 class="text-white mb-0">Jackie Tristan</h4>
+
+                            <p class="badge ms-4"><em>Keyboard/Periphreals (#5)</em></p>
+                        </div>
+
+                        <p class="text-white mb-0">...</p>
+                    </div>
+
+                    <div class="team-block-image-wrap">
+                        <img src="https://bleachkrownedkueens.com/images/jackie.gif" class="team-block-image img-fluid" alt="">
                     </div>
                 </div>
             </div>
 
-            <p class="footer__copy">
-                <a href="#" target="_blank" class="footer__copy-link">&#169; BLEACH: KROWNED KUEENS. All right reserved</a>
-            </p>
-        </footer>
-          <div class="footer-more">
-<strong>General Inquiries</strong> <a href="mailto:cooperhamlin@aol.com">cooperhamlin@aol.com</a> | 
-<strong>Business Inquiries</strong> <a href="mailto:princehamlin@0607@gmail.com">princehamlin@0607@gmail.com</a><br>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-block-wrap">
+                    <div class="team-block-info d-flex flex-column">
+                        <div class="d-flex mt-auto mb-3">
+                            <h4 class="text-white mb-0">Rangiku</h4>
 
-        <!--=============== SCROLL UP ===============-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-s-line scrollup__icon"></i>
-        </a>
+                            <p class="badge ms-4"><em>Vocals/Percussion/Dance (#6)</em></p>
+                        </div>
+
+                        <p class="text-white mb-0">...</p>
+                    </div>
+
+                    <div class="team-block-image-wrap">
+                        <img src="https://bleachkrownedkueens.com/images/rangiku.gif" class="team-block-image img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-block-wrap">
+                    <div class="team-block-info d-flex flex-column">
+                        <div class="d-flex mt-auto mb-3">
+                            <h4 class="text-white mb-0">Soifon</h4>
+
+                            <p class="badge ms-4"><em>Rhythym Guitarist (#7)</em></p>
+                        </div>
+
+                        <p class="text-white mb-0">...</p>
+                    </div>
+
+                    <div class="team-block-image-wrap">
+                        <img src="https://bleachkrownedkueens.com/images/soifon.gif" class="team-block-image img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-block-wrap">
+                    <div class="team-block-info d-flex flex-column">
+                        <div class="d-flex mt-auto mb-3">
+                            <h4 class="text-white mb-0">Tia Harribel</h4>
+
+                            <p class="badge ms-4"><em>Lead Vocalist/Dancer (#8)</em></p>
+                        </div>
+
+                        <p class="text-white mb-0">...</p>
+                    </div>
+
+                    <div class="team-block-image-wrap">
+                        <img src="https://bleachkrownedkueens.com/images/harribel.gif" class="team-block-image img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-block-wrap">
+                    <div class="team-block-info d-flex flex-column">
+                        <div class="d-flex mt-auto mb-3">
+                            <h4 class="text-white mb-0">Lisa Yadomaru</h4>
+
+                            <p class="badge ms-4"><em>Producer</em></p>
+                        </div>
+
+                        <p class="text-white mb-0">...</p>
+                    </div>
+
+                    <div class="team-block-image-wrap">
+                        <img src="https://comicvine.gamespot.com/a/uploads/scale_medium/4/47703/3176638-8903265650-48658.png" class="team-block-image img-fluid" alt="">
+                    </div>
+                </section>
+
+                <section class="reviews-section section-padding section-bg" id="section_3">
+                    <div class="container">
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+                                <em class="text-white">The people who are bringing this project together</em>
+
+                                <h2 class="text-white">Meet the Team:</h2>
+                            </div>
+
+                            <div class="timeline">
+                                <div class="timeline-container timeline-container-left">
+                                    <div class="timeline-content">
+                                        <div class="reviews-block">
+                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                <img src="https://i.imgur.com/jIeXMbl.jpeg" class="reviews-block-image img-fluid" alt="">
+
+                                                <div class="">
+                                                    <h6 class="text-white mb-0">Ricky Victome</h6>
+                                                    <em class="text-white">Graphic Artist/Designer</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="reviews-block-info">
+                                                <p>Has been a member of the Krowned Kueens Project since September 13, 2023.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-container timeline-container-right">
+                                    <div class="timeline-content">
+                                        <div class="reviews-block">
+                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                <img src="https://pbs.twimg.com/profile_images/1448759617455108103/NvB11oRN_400x400.jpg" class="reviews-block-image img-fluid" alt="">
+
+                                                <div class="">
+                                                    <h6 class="text-white mb-0">John "Illa" Suarez</h6>
+                                                    <em class="text-white"> Graphics Artist/Designer</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="reviews-block-info">
+                                                <p>Has been a member of the Krowned Kueens Project since September 26, 2023.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-container timeline-container-left">
+                                    <div class="timeline-content">
+                                        <div class="reviews-block">
+                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                <img src="https://i.imgur.com/Tixtw3I.jpeg" class="reviews-block-image img-fluid" alt="">
+
+                                                <div class="">
+                                                    <h6 class="text-white mb-0">Syed "Hawk Eye" Ali</h6>
+                                                    <em class="text-white"> Graphics Artist/Animator/After Effects Specialist</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="reviews-block-info">
+                                                <p>Has been a member of the Krowned Kueens Project since April 5, 2024.</p>
+
+
+                                                <div class="timeline-container timeline-container-right">
+                                                    <div class="timeline-content">
+                                                        <div class="reviews-block">
+                                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                                <img src="https://i.imgur.com/b7ShyUv.png" class="reviews-block-image img-fluid" alt="">
+                
+                                                                <div class="">
+                                                                    <h6 class="text-white mb-0">Julian "Icarheus" Regala</h6>
+                                                                    <em class="text-white">Graphics Artist/Animator</em>
+                                                                </div>
+                                                            </div>
+                
+                                                            <div class="reviews-block-info">
+                                                                <p>Has been a member of the Krowned Kueens Project since February 12, 2024.</p>
+
+
+                                                                <div class="timeline-container timeline-container-left">
+                                                                    <div class="timeline-content">
+                                                                        <div class="reviews-block">
+                                                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                                                <img src="https://i.imgur.com/l9H4FQs.png" class="reviews-block-image img-fluid" alt="">
+                                
+                                                                                <div class="">
+                                                                                    <h6 class="text-white mb-0">Tomas "Curco" Sosto</h6>
+                                                                                    <em class="text-white">3D Artist</em>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="reviews-block-info">
+                                                                                <p>Has been a member of the Krowned Kueens Project since April 14, 2024.</p>
+
+                                                                                
+                                                                <div class="timeline-container timeline-container-right">
+                                                                    <div class="timeline-content">
+                                                                        <div class="reviews-block">
+                                                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                                                <img src="https://i.imgur.com/4F2mqYq.jpeg" class="reviews-block-image img-fluid" alt="">
+                                
+                                                                                <div class="">
+                                                                                    <h6 class="text-white mb-0">Jovan "JoTheFro" Desir</h6>
+                                                                                    <em class="text-white">Sprite/Pixel Artist</em>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="reviews-block-info">
+                                                                                <p>Has been a member of the Krowned Kueens Project since April 11, 2024.</p>
+
+                                                                                <div class="timeline-container timeline-container-left">
+                                                                                    <div class="timeline-content">
+                                                                                        <div class="reviews-block">
+                                                                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                                                                <img src="https://i.imgur.com/pVtpwJE.png" class="reviews-block-image img-fluid" alt="">
+                                                
+                                                                                                <div class="">
+                                                                                                    <h6 class="text-white mb-0">Kleymir</h6>
+                                                                                                    <em class="text-white">3D Artist</em>
+                                                                                                </div>
+                                                                                            </div>
+                                                
+                                                                                            <div class="reviews-block-info">
+                                                                                                <p>Has been a member of the Krowned Kueens Project since April 11, 2024.</p>
+
+                                                                                                <div class="timeline-container timeline-container-right">
+                                                                                                    <div class="timeline-content">
+                                                                                                        <div class="reviews-block">
+                                                                                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                                                                                <img src="https://i.imgur.com/HlYDaZp.png" class="reviews-block-image img-fluid" alt="">
+                                                                
+                                                                                                                <div class="">
+                                                                                                                    <h6 class="text-white mb-0">Athena Michael</h6>
+                                                                                                                    <em class="text-white">Graphics Artist</em>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                
+                                                                                                            <div class="reviews-block-info">
+                                                                                                                <p>Has been a member of the Krowned Kueens Project since March 19, 2024.</p>
+
+                                                                                                                <div class="timeline-container timeline-container-left">
+                                                                                                                    <div class="timeline-content">
+                                                                                                                        <div class="reviews-block">
+                                                                                                                            <div class="reviews-block-image-wrap d-flex align-items-center">
+                                                                                                                                <img src="https://i.imgur.com/4F2mqYq.jpeg" class="reviews-block-image img-fluid" alt="">
+                                                                                
+                                                                                                                                <div class="">
+                                                                                                                                    <h6 class="text-white mb-0">Priyanka "ImCertiBTW" Diwakar</h6>
+                                                                                                                                    <em class="text-white">AI Voice Model Maker</em>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                
+                                                                                                                            <div class="reviews-block-info">
+                                                                                                                                <p>Has been a member of the Krowned Kueens Project since January 11, 2024.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="contact-section section-padding" id="section_5">
+                    <div class="container">
+                        <div class="row">   
+
+                            <div class="col-lg-12 col-12">
+                                <em class="text-white">If you're interested in contributing to this project or would like to discuss anything in detail, please don't hesitate to reach out to me:</em>
+                                <h2 class="text-white mb-4 pb-lg-2">Contact</h2>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <form action="#" method="post" class="custom-form contact-form" role="form">
+
+                                <div class="row">
+                                    
+                                    <div class="col-lg-6 col-12">
+                                        <label for="name" class="form-label">Your Name <sup class="text-danger">*</sup></label>
+
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <label for="email" class="form-label">Your Email Address</label>
+
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required="">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">What would you like to know?</label>
+
+                                        <textarea name="message" rows="4" class="form-control" id="message" placeholder="Message" required=""></textarea>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-12 mx-auto mt-3">
+                                    <button type="submit" class="form-control">Send Message</button>
+                                </div>
+                            </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-4 col-12 me-auto">
+                                <em class="text-white d-block mb-4">Where am I located?</em>
+
+                                <strong class="text-white">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    Los Angeles, California
+                                </strong>
+
+                                <ul class="social-icon mt-4">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook">
+                                        </a>
+                                    </li>
         
-        <!--=============== SCROLL REVEAL ===============-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+                                    <li class="social-icon-item">
+                                        <a href="https://x.com" target="_new" class="social-icon-link bi-twitter">
+                                        </a>
+                                    </li>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="secondary.js"></script>
-    
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-whatsapp">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+                                <em class="text-white d-block mb-4">Contact</em>
+
+                                <p class="d-flex">
+                                    <strong class="me-2">Email (I'm happy to communicate through Zoom as well):</strong>
+
+                                    <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                        cooperhamlin@aol.com
+                                    </a>
+                                </p>
+                            </div>
+
+
+                            <div class="col-lg-5 col-12">
+                                <em class="text-white d-block mb-4">Availability (Varies)</em>
+
+                                <ul class="opening-hours-list">
+                                    <li class="d-flex">
+                                        Wednesday - Friday
+                                        <span class="underline"></span>
+
+                                        <strong>8:00 AM - 7:00 PM</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Saturday
+                                        <span class="underline"></span>
+
+                                        <strong>Often throughout the day</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Sunday
+                                        <span class="underline"></span>
+
+                                        <strong>Often throughout the day</strong>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-8 col-12 mt-4">
+                                <p class="copyright-text mb-0">Copyright © BLEACH: Krowned Kueens (The Software & The Animation) 
+                            </div>
+                    </div>
+                </footer>
+            </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="jquery.sticky.js"></script>
+        <script src="click-scroll.js"></script>
+        <script src="vegas.min.js"></script>
+        <script src="custom.js"></script>
+
     </body>
-</html>
-      </script>
-  </body>
 </html>
