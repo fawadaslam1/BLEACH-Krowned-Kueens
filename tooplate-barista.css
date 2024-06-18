@@ -276,7 +276,6 @@ strong {
   }
 }
 
-
 /*---------------------------------------
   CUSTOM BUTTON               
 -----------------------------------------*/
@@ -1125,7 +1124,7 @@ strong {
   .menu-block-wrap,
   .reviews-block-image-wrap,
   .reviews-block-info {
-    padding: 20px;
+    padding: 40px;
   }
 }
 
