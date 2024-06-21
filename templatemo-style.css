@@ -386,25 +386,13 @@ h5 {
 }
 
 .site-banner {
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 .site-banner h2 {
-    font-size: 32px;
+    font-size: 22px;
     font-family: 'robotobold';
-    margin-bottom: 30px;
-}
-
-.subscribe-form {
-    margin-top: 40px;
-}
-
-.subscribe-form #subscribe-email {
-    width: 100%;
-    padding: 10px;
-    background: transparent;
-    border: 1px solid #fff;
-    outline: 0;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
