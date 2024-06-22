@@ -45,13 +45,17 @@ session_start();
 
 ?>
 
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Login</title>
-</head>
-<body>
+        <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
+        <title>LOGIN - KROWNED KUEENS</title>
 
 	<style type="text/css">
 	
