@@ -47,14 +47,14 @@ session_start();
 
 	<style type="text/css">
 	
-	* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
-body {
+body{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +64,7 @@ body {
   background-position: center;
 }
 
-.wrapper {
+.wrapper{
   width: 420px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, .2);
@@ -75,19 +75,19 @@ body {
   padding: 30px 40px;
 }
 
-.wrapper h1 {
+.wrapper h1{
   font-size: 36px;
   text-align: center;
 }
 
-.wrapper .input-box {
+.wrapper .input-box{
   position: relative;
   width: 100%;
   height: 50px;
   margin: 30px 0;
 }
 
-.input-box input {
+.input-box input{
   width: 100%;
   height: 100%;
   background: transparent;
@@ -104,7 +104,7 @@ body {
   color: #fff;
 }
 
-.input-box i {
+.input-box i{
   position: absolute;
   right: 20px;
   top: 50%;
@@ -112,28 +112,28 @@ body {
   font-size: 20px;
 }
 
-.wrapper .remember-forgot {
+.wrapper .remember-forgot{
   display: flex;
   justify-content: space-between;
   font-size: 14.5px;
   margin: -15px 0 15px;
 }
 
-.remember-forgot label input {
+.remember-forgot label input{
   accent-color: #fff;
   margin-right: 3px;
 }
 
-.remember-forgot a {
+.remember-forgot a{
   color: #fff;
   text-decoration: none;
 }
 
-.remember-forgot a:hover {
+.remember-forgot a:hover{
   text-decoration: underline;
 }
 
-.wrapper .btn {
+.wrapper .btn{
   width: 100%;
   height: 45px;
   background: #fff;
@@ -147,19 +147,19 @@ body {
   font-weight: 600;
 }
 
-.wrapper .register-link {
+.wrapper .register-link{
   font-size: 14.5px;
   text-align: center;
   margin: 20px 0 15px;
 }
 
-.register-link p a {
+.register-link p a{
   color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
 
-.register-link p a:hover {
+.register-link p a:hover{
   text-decoration: underline;
 }
 
