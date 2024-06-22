@@ -20,7 +20,8 @@ session_start();
     <body>
 
 	<a href="logout.php">Logout</a>
-	<h1>Welcome!</h1>
+	<h1>Welcome to the Krowned Kueens Music Project! 
+	What would you like to do today?</h1>
 
 	<br>
 	Hello, <?php echo $user_data['user_name']; ?>
