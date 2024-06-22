@@ -15,12 +15,12 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
       
-    <title>LOGIN - BLEACH: KROWNED KUEENS</title>
+    <title>WELCOME - BLEACH: KROWNED KUEENS</title>
     </head>
     <body>
 
 	<a href="logout.php">Logout</a>
-	<h1>This is the index page</h1>
+	<h1>Welcome!</h1>
 
 	<br>
 	Hello, <?php echo $user_data['user_name']; ?>
