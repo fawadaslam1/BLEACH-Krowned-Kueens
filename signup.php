@@ -30,12 +30,18 @@ session_start();
 ?>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Signup</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
+        <title>👑BLEACH: KROWNED KUEENS🎶</title>
+
 
 	<style type="text/css">
 	
