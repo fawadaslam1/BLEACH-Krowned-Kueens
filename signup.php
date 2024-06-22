@@ -24,7 +24,7 @@ session_start();
 			die;
 		}else
 		{
-			echo "Please enter some valid information!";
+			echo "That was invalid, please try again!";
 		}
 	}
 ?>
@@ -40,7 +40,7 @@ session_start();
         <meta name="author" content="">
 
         <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
-        <title>👑BLEACH: KROWNED KUEENS🎶</title>
+        <title>REGISTER - BLEACH: KROWNED KUEENS</title>
 
 
 	<style type="text/css">
@@ -76,7 +76,7 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
+			<div style="font-size: 20px;margin: 10px;color: white;">Sign Up</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
