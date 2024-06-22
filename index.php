@@ -9,11 +9,15 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html>
-<head>
-	<title>My website</title>
-</head>
-<body>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://i.imgur.com/FHnHqMh.jpeg" type="image/x-icon">
+      
+    <title>LOGIN - BLEACH: KROWNED KUEENS</title>
+    </head>
+    <body>
 
 	<a href="logout.php">Logout</a>
 	<h1>This is the index page</h1>
