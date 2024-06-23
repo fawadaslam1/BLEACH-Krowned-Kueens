@@ -15,7 +15,7 @@
 <html>
 <head>
 	<title>HOME - KROWNED KUEENS MUSIC PROJECT</title>
-	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="loginsuccess.css">
 </head>
 <body>
 
@@ -40,6 +40,8 @@
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+	
+	<p> <a href="index.html" style="color: red;">Home Page</a> </p>
     <?php endif ?>
 </div>
 
