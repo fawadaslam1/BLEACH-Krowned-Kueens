@@ -49,7 +49,7 @@ h1{
 }
 
 .faq.active::before {
-  color: #3498db;
+  color: #DF08DF;
   left: -30px;
   top: -10px;
   transform: rotateY(180deg);
