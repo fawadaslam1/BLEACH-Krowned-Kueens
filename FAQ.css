@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #f2820e;
   font-family: "Muli", sans-serif;
 }
 
@@ -21,7 +21,7 @@ h1 {
 
 .faq {
   background-color: transparent;
-  border: 1px solid #9fa4a8;
+  border: 1px solid #000000;
   border-radius: 10px;
   margin: 20px 0;
   overflow: hidden;
