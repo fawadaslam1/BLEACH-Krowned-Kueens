@@ -5,8 +5,8 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   --hue-color: 206;
-  --orange-color: hsl(var(--hue-color), 100%, 50%);
-  --orange-color-alt: hsl(var(--hue-color), 98%, 52%);
+  --black-color: hsl(var(--hue-color), 4%, 4%);
+  --black-color-alt: hsl(var(--hue-color), 4%, 8%);
   --title-color: hsl(var(--hue-color), 4%, 95%);
   --text-color: hsl(var(--hue-color), 4%, 75%);
   --text-color-light: hsl(var(--hue-color), 4%, 65%);
