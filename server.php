@@ -106,7 +106,7 @@ $email = "";
 $errors = array(); 
 
 // Connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'your_database_name');
+$db = mysqli_connect('localhost:3306', 'root', '');
 
 // Check for form submission
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['reg_user'])) {
