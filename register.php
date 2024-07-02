@@ -19,7 +19,7 @@
 
 //     <div class="wrapper">
 //             <h1>Krowned Kueens Site Registration</h1>
-//   <form method="post" action="register.php">
+//   <form method="POST" action="register.php">
 //   	<?php include('errors.php'); ?>
 //   	<div class="input-box">
 //   	  <label>Username</label>
